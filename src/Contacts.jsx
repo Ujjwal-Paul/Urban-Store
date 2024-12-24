@@ -1,3 +1,4 @@
+import Button from "./Button";
 
 export default function Contacts() {
     return (
@@ -20,7 +21,8 @@ export default function Contacts() {
                         <input className="h-[3rem] lg:w-[47%] p-3 outline-none border border-[#00000030] mb-8" type="email" placeholder="Email" />
                     </div>
                     <textarea className="p-3 outline-none border border-[#00000030] mb-8 resize-none" rows={5} placeholder="Message"></textarea>
-                    <button className="tracking-[2px] font-[700] text-[0.9rem] bg-[#000] text-[#fff] w-fit py-3 px-9">SEND MESSAGE</button>
+
+                    <Button message="Send Message" />
                 </form>
             </div>
         </div>
