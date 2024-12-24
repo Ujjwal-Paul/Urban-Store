@@ -11,7 +11,7 @@ export default function Nav() {
   }
 
   return (
-    <div className="md:flex justify-between items-center p-5 max-w-[1300px] m-auto">
+    <div className="md:flex justify-between items-center p-5 max-w-[1200px] m-auto">
       <div className="flex justify-between items-center">
         <p className="text-[1.5rem] font-[700]"><NavLink to="/">UrbanStore</NavLink></p>
         <IoMenu className={`md:hidden text-[1.5rem] ${open ? 'hidden' : 'block'}`} onClick={() => setOpen((e) => !e)} />

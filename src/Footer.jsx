@@ -9,7 +9,7 @@ import { FaPhone } from "react-icons/fa6";
 export default function Footer() {
   return (
     <div className="bg-[#000] text-[#aaa] p-5 pt-14">
-      <div className="max-w-[1300px] m-auto">
+      <div className="max-w-[1200px] m-auto">
         <div className="sm:hidden">
           <BrandInfo />
           <QuickLinks />
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="hidden lg:flex justify-evenly">
+        <div className="hidden lg:flex justify-between px-5">
           <BrandInfo />
           <QuickLinks />
           <ContactInfo />
@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-[1300px] m-auto text-center mt-14 pt-5 border-t-[1px] border-[#ffffff40]">
+      <div className="max-w-[1200px] m-auto text-center mt-14 pt-5 border-t-[1px] border-[#ffffff40]">
         Made by <a href="https://www.linkedin.com/in/ujjwal-paul" target="_blank" className="text-[skyblue]"><i>@Ujjwal</i></a>
       </div>
     </div>
@@ -89,11 +89,11 @@ function QuickLinks() {
 
 function ContactInfo() {
   return (
-    <div className="">
+    <div>
       <p className="text-[#ddd] font-[700]">CONTACT INFO</p>
       <div>
-        <p className="my-2"><MdEmail className="inline mr-1" /> urbanstore@gmail.com </p>
-        <p><FaPhone className="inline mr-1" /> Likho 98 </p>
+        <p className="my-2"><MdEmail className="inline mr-1" /> contact@urbanstore.com </p>
+        <p><FaPhone className="inline mr-1" /> +91 9800098000 </p>
       </div>
     </div>
   );
