@@ -62,10 +62,10 @@ function SocialMedia() {
     <div>
       <p className="text-[#ddd] font-[700] mb-4">SOCIAL MEDIA</p>
       <div className="flex max-w-[200px] justify-between mb-8">
-        <FaFacebook className="text-[2rem] mr-5" />
-        <FaInstagram className="text-[2rem] mr-5" />
-        <FaXTwitter className="text-[2rem] mr-5" />
-        <FaPinterestSquare className="text-[2rem]" />
+        <FaFacebook className="hover:text-[#fff] transition-color duration-200 text-[2rem] mr-5" />
+        <FaInstagram className="hover:text-[#fff] transition-color duration-200 text-[2rem] mr-5" />
+        <FaXTwitter className="hover:text-[#fff] transition-color duration-200 text-[2rem] mr-5" />
+        <FaPinterestSquare className="hover:text-[#fff] transition-color duration-200 text-[2rem]" />
       </div>
     </div>
   );
@@ -76,12 +76,12 @@ function QuickLinks() {
     <div>
       <p className="text-[#ddd] font-[700] mb-2">QUICK LINKS</p>
       <div className="flex flex-col mb-8">
-        <NavLink to="/" className="mb-2">Home</NavLink>
-        <NavLink to="about" className="mb-2">About</NavLink>
-        <NavLink to="blog" className="mb-2">Blog</NavLink>
-        <NavLink to="events" className="mb-2">Events</NavLink>
-        <NavLink to="community" className="mb-2">Community</NavLink>
-        <NavLink to="contacts">Contact Us</NavLink>
+        <NavLink to="/" className="mb-2 hover:text-[#fff] transition-color duration-200">Home</NavLink>
+        <NavLink to="about" className="mb-2 hover:text-[#fff] transition-color duration-200">About</NavLink>
+        <NavLink to="blog" className="mb-2 hover:text-[#fff] transition-color duration-200">Blog</NavLink>
+        <NavLink to="events" className="mb-2 hover:text-[#fff] transition-color duration-200">Events</NavLink>
+        <NavLink to="community" className="mb-2 hover:text-[#fff] transition-color duration-200">Community</NavLink>
+        <NavLink to="contacts" className="hover:text-[#fff] transition-color duration-200">Contact Us</NavLink>
       </div>
     </div>
   );
