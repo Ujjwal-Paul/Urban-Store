@@ -15,8 +15,8 @@ export default function Events() {
                 <p className="text-[#555]">Discover handwoven cloths from artisans across India. Every purchase supports traditional craftsmanship.</p>
             </div>
 
-            <div className="bg-[none] px-5">
-                <div className="bg-[none] flex flex-wrap sm:w-[600px] lg:w-full max-w-[1200px] m-auto">
+            <div className="px-5">
+                <div className="flex flex-wrap sm:w-[600px] lg:w-full max-w-[1200px] m-auto">
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2 mb-12">
                         <img className="h-[300px] w-full object-cover object-top" src="/dress-1.jpg" alt="dress" loading="lazy" />
                         <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
@@ -33,7 +33,7 @@ export default function Events() {
                     </div>
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2">
                         <img className="h-[300px] w-full object-cover object-top" src="/dress-3.jpg" alt="dress" loading="lazy" />
-                        <div  className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
+                        <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
                             <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-2">Urban Royal Almond</p>
                             <p>Modern styling hacks to incorporate sarees into your wardrobe</p>
                         </div>
@@ -63,7 +63,7 @@ export default function Events() {
             </div>
 
             <div className="bg-[#eee] flex flex-col lg:flex-row">
-                <p className="lg:w-1/2 flex items-center text-center py-24 px-12">“The saree isn’t just an outfit; it’s a story woven into six yards of elegance. Whether you’re a saree veteran or someone curious about its charm, you’re in the right place.”</p>
+                <p className="lg:w-1/2 flex items-center text-center py-24 px-12">“The cloths isn’t just an outfit; it’s a story woven into six yards of elegance. Whether you’re a cloths veteran or someone curious about its charm, you’re in the right place.”</p>
                 <img className="lg:w-1/2 h-[400px] object-cover" src="https://cdn.pixabay.com/photo/2017/08/06/22/52/blouse-2597205_640.jpg" alt="cloth img" loading="lazy" />
             </div>
 
