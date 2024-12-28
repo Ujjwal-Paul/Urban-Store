@@ -27,9 +27,9 @@ export default function Community() {
                 <img className="h-full w-full object-cover" src="/cover.jpg" alt="community" loading="lazy" />
             </div>
 
-            <div className="bg-[#eee] px-5 pt-28 pb-44 text-center">
+            <div className="bg-[#eee] px-5 pt-20 pb-44 text-center">
                 <p className="uppercase text-[#E53637] font-[700] tracking-[2px] mb-10">Community</p>
-                <p className="font-[700] text-[2.5rem] leading-[2.5rem]  mb-5">Connect with the Urban Community</p>
+                <p className="font-[700] text-[2.5rem] leading-[2.5rem] mb-5">Connect with the Urban Community</p>
                 <p className="text-[#555]"><span className="text-[1.4rem] mr-1">Love cloths?</span>So do we! Join our vibrant community of urban enthusiasts.</p>
             </div>
 
