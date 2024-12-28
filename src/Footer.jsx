@@ -51,7 +51,7 @@ export default function Footer() {
 function BrandInfo() {
   return (
     <div className="max-w-[270px]">
-      <p className="text-[2.5rem] font-[700] text-[#ddd] mb-[-14px] "><NavLink to="/" className="relative top-[-14px]  ">UrbanStore</NavLink></p>
+      <p className="text-[2.5rem] font-[700] text-[#ddd] leading-[2.5rem] mb-1"><NavLink to="/">UrbanStore</NavLink></p>
       <p className="mb-8">Trendy fashion for the modern city lifestyle. Style, comfort, and quality, all in one place.</p>
     </div>
   );
