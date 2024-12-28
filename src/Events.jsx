@@ -9,32 +9,34 @@ export default function Events() {
                 <img className="h-full w-full object-cover" src="/cover.jpg" alt="community" loading="lazy" />
             </div>
 
-            <div className="bg-[green] px-5 pt-20 pb-14 text-center">
+            <div className="px-5 pt-20 pb-14 text-center">
                 <p className="uppercase text-[#E53637] font-[700] tracking-[2px] mb-10">Workshops & Events</p>
                 <p className="font-[700] text-[2.5rem] leading-[2.5rem]  mb-5">Urban Workshops and Events</p>
                 <p className="text-[#555]">Discover handwoven cloths from artisans across India. Every purchase supports traditional craftsmanship.</p>
             </div>
 
-            <div className="bg-[red]">
-                <div>
-                    <img src="https://cdn.pixabay.com/photo/2024/12/13/10/23/woman-9264738_1280.jpg" alt="dress" loading="lazy" />
-                    <div>
-                        <p>Urban Royalty Red</p>
-                        <p>Learn how to drape a cloths confidently for any occasion</p>
+            <div className="bg-[none] px-5">
+                <div className="bg-[none] flex flex-wrap sm:w-[600px] lg:w-full max-w-[1200px] m-auto">
+                    <div className="w-full sm:w-[300px] lg:flex-1 px-2 mb-12">
+                        <img className="h-[300px] w-full object-cover object-top" src="/dress-1.jpg" alt="dress" loading="lazy" />
+                        <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
+                            <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-2">Urban Royal Glod</p>
+                            <p>Learn how to drape a cloths confidently for any occasion</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src="https://cdn.pixabay.com/photo/2022/12/04/07/03/woman-7633843_1280.jpg" alt="dress" loading="lazy" />
-                    <div>
-                        <p>Urban Royalty Blue</p>
-                        <p>Explore the history and craftsmanship of cloths from different regions</p>
+                    <div className="w-full sm:w-[300px] lg:flex-1 px-2 mb-12">
+                        <img className="h-[300px] w-full object-cover object-top" src="/dress-2.jpg" alt="dress" loading="lazy" />
+                        <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
+                            <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-2">Urban Royal Olive</p>
+                            <p>Explore the history and craftsmanship of cloths from different regions</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src="https://cdn.pixabay.com/photo/2021/03/22/16/07/woman-6115105_1280.jpg" alt="dress" loading="lazy" />
-                    <div>
-                        <p>Urban Royalty Sky</p>
-                        <p>Modern styling hacks to incorporate sarees into your wardrobe</p>
+                    <div className="w-full sm:w-[300px] lg:flex-1 px-2">
+                        <img className="h-[300px] w-full object-cover object-top" src="/dress-3.jpg" alt="dress" loading="lazy" />
+                        <div  className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
+                            <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-2">Urban Royal Almond</p>
+                            <p>Modern styling hacks to incorporate sarees into your wardrobe</p>
+                        </div>
                     </div>
                 </div>
             </div>
