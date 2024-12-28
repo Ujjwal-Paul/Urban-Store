@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 import Button from "./Button";
 
 const defaultTime = 513253; // Seconds
@@ -22,8 +23,8 @@ export default function Community() {
     return (
         <div>
             <div className="relative h-[350px] w-full">
-                <p className="absolute m-auto inset-0 flex items-center justify-center text-[#fff] text-[3.5rem] font-[700]">Community</p>
-                <img className="h-full w-full object-cover" src="/cover.jpg" alt="community" />
+                <p className="absolute m-auto inset-0 flex items-center justify-center text-[#fff] text-[3.5rem] text-center font-[700]">Community</p>
+                <img className="h-full w-full object-cover" src="/cover.jpg" alt="community" loading="lazy" />
             </div>
 
             <div className="bg-[#eee] px-5 pt-28 pb-44 text-center">
@@ -33,7 +34,7 @@ export default function Community() {
             </div>
 
             <div className="flex justify-center mt-[-100px] px-5">
-                <img className="w-[90vw] max-w-[1100px] max-h-[500px] object-cover rounded-[5px]" src="/group-pic.jpg" alt="community img" />
+                <img className="w-[90vw] max-w-[1100px] max-h-[500px] object-cover rounded-[5px]" src="/group-pic.jpg" alt="community img" loading="lazy" />
             </div>
 
             <div className="mt-14 px-5 w-full max-w-[700px] m-auto">
@@ -42,6 +43,7 @@ export default function Community() {
                     Participate in online challenges, like “Item of the Week.”<br /><br />
                     Follow our social media to see your photos featured on our platform
                 </div>
+
                 <div className="bg-[#eee] px-5 py-24">
                     <p className="uppercase text-[#E53637] font-[700] tracking-[2px] mb-5">Item of the Week</p>
                     <p className="font-[700] text-[2.5rem] leading-[2.5rem] mb-10">Upcoming online challenges</p>
