@@ -61,7 +61,7 @@ export default function Events() {
 
             <div className="bg-[#eee] flex flex-col lg:flex-row">
                 <p className="lg:w-1/2 flex items-center text-center py-24 px-12">“The cloths isn’t just an outfit; it’s a story woven into six yards of elegance. Whether you’re a cloths veteran or someone curious about its charm, you’re in the right place.”</p>
-                <img className="lg:w-1/2 h-[400px] object-cover" src="https://cdn.pixabay.com/photo/2017/08/06/22/52/blouse-2597205_640.jpg" alt="cloth img" loading="lazy" />
+                <img className="lg:w-1/2 h-[400px] object-cover" src="/cloths.jpg" alt="cloth img" loading="lazy" />
             </div>
         </div>
     );
