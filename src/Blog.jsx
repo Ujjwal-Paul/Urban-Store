@@ -1,7 +1,5 @@
 import { FaRegCalendarCheck } from "react-icons/fa6";
 
-
-
 export default function Blog() {
     return (
         <div className="">
@@ -26,6 +24,7 @@ export default function Blog() {
                             <p className="relative cursor-pointer w-fit uppercase text-[0.9rem] font-[600] tracking-[2px] after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#000] after:w-full hover:after:w-1/3 hover:after:bg-[red] after:transition-w after:duration-300">Read More</p>
                         </div>
                     </div>
+
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2 mb-12">
                         <img className="h-[300px] w-full object-cover object-top" src="/navratri.jpg" alt="dress" loading="lazy" />
                         <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
@@ -34,6 +33,7 @@ export default function Blog() {
                             <p className="relative cursor-pointer w-fit uppercase text-[0.9rem] font-[600] tracking-[2px] after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#000] after:w-full hover:after:w-1/3 hover:after:bg-[red] after:transition-w after:duration-300">Read More</p>
                         </div>
                     </div>
+
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2">
                         <img className="h-[300px] w-full object-cover object-top" src="/halloween.jpg" alt="dress" loading="lazy" />
                         <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
@@ -44,7 +44,6 @@ export default function Blog() {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }
