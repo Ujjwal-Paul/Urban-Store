@@ -41,7 +41,7 @@ export default function Community() {
                 <div className="mb-14">
                     Share your urban looks, stories, and tips.<br /><br />
                     Participate in online challenges, like “Item of the Week.”<br /><br />
-                    Follow our social media to see your photos featured on our platform
+                    Follow our social media to see your photos featured on our platform.
                 </div>
 
                 <div className="bg-[#eee] px-5 py-24">
