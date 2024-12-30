@@ -14,6 +14,29 @@ export default function Home() {
 
 
 
+            <div className="relative flex justify-center items-center">
+                <img className=" h-[110vh] w-full object-cover" src="/landing-page.jpg" alt="cover" loading="lazy" />
+
+                <div className="bg-[none] absolute top-[120px] w-full max-w-[1200px] px-5">
+                    <p className="uppercase text-[#E53637] font-[700] tracking-[2px] mb-5">Welcome</p>
+                    <p className="font-[700] text-[2.5rem] leading-[3rem] mb-5 bg-[none] max-w-[300px]">Rediscover the Elegance of the Cloths</p>
+                    <p className="mb-5 max-w-[500px]">Welcome to our platform dedicated to celebrating the timeless elegance of the cloths. Here, you’ll rediscover its charm and learn how it bridges tradition and modernity.</p>
+
+                    <div className="sm:flex">
+                        <div className="bg-[red] w-fit mb-2 sm:mb-0 sm:mr-2">
+                            <NavLink to="events">
+                                <Button message="Learn More" />
+                            </NavLink>
+                        </div>
+                        <div className="w-fit">
+                            <NavLink to="community">
+                                <Button message="Join Community" />
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
 
 
