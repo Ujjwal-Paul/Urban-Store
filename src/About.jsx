@@ -1,5 +1,7 @@
 
 
+import NumberTicker from "./utils/NumberTicker";
+
 
 export default function About() {
     return (
@@ -39,18 +41,19 @@ export default function About() {
 
             <div className="w-[85vw] max-w-[1100px] m-auto flex flex-wrap justify-between mt-28 mb-16">
                 <div className="flex items-center mr-5">
-                    <p className="font-[700] text-[4rem] mr-1">30</p>
+                    <p className="font-[700] text-[4rem] mr-1"> <NumberTicker value={35} /> </p>
                     <p className="font-[700] text-[1.2rem] leading-[1.5rem] text-[#333] h-fit">Total <br /> Categories</p>
                 </div>
                 <div className="flex items-center mr-5">
-                    <p className="font-[700] text-[4rem] mr-1">10</p>
+                    <p className="font-[700] text-[4rem] mr-1"> <NumberTicker value={12} /> </p>
                     <p className="font-[700] text-[1.2rem] leading-[1.5rem] text-[#333] h-fit">Total <br /> Countries</p>
                 </div>
                 <div className="flex items-center">
-                    <p className="font-[700] text-[4rem] mr-1">97%</p>
+                    <p className="font-[700] text-[4rem] mr-1"> <NumberTicker value={97} />% </p>
                     <p className="font-[700] text-[1.2rem] leading-[1.5rem] text-[#333] h-fit">Happy <br /> Customers</p>
                 </div>
             </div>
+
 
 
 
