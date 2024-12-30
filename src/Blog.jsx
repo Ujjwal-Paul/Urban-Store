@@ -27,7 +27,7 @@ export default function Blog() {
                     </div>
 
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2 mb-12">
-                        <img className="h-[300px] w-full object-cover object-top" src="/navratri.jpg" alt="dress" loading="lazy" />
+                        <img className="h-[300px] w-full object-cover object-top" src="/halloween.jpg" alt="dress" loading="lazy" />
                         <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
                             <p className="text-[#666] text-[0.9rem] mb-2"> <FaRegCalendarCheck className="inline mt-[-5px] mr-1" /> 31 October 2024 </p>
                             <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-4">Spooky Chic: Transforming Halloween Fashion with Dark Elegance</p>
@@ -36,7 +36,7 @@ export default function Blog() {
                     </div>
 
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2">
-                        <img className="h-[300px] w-full object-cover object-top" src="/halloween.jpg" alt="dress" loading="lazy" />
+                        <img className="h-[300px] w-full object-cover object-top" src="/navratri.jpg" alt="dress" loading="lazy" />
                         <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
                             <p className="text-[#666] text-[0.9rem] mb-2"> <FaRegCalendarCheck className="inline mt-[-5px] mr-1" /> 3 October 2024 </p>
                             <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-4">Navratri: A Festival of Faith, Dance, and Devotion</p>

@@ -13,6 +13,10 @@ export default function Home() {
 
 
 
+
+
+
+
             <div className="bg-[#eee] py-32">
                 <div className="px-5 max-w-[1200px] m-auto">
                     <p className="text-[1.5rem] mb-4">The cloths isn’t just an outfit; it’s a story woven into six yards of elegance. Whether you’re a cloths veteran or someone curious about its charm, you’re in the right place.</p>
@@ -23,7 +27,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="w-[85vw] max-w-[1100px] m-auto flex flex-wrap justify-between mt-28 mb-20">
+            <div className="w-[85vw] max-w-[1100px] m-auto flex flex-wrap justify-between mt-20 mb-20">
                 <div className="flex items-center mr-5">
                     <p className="font-[700] text-[4rem] mr-1"> <NumberTicker value={35} /> </p>
                     <p className="font-[700] text-[1.2rem] leading-[1.5rem] text-[#333] h-fit">Total <br /> Categories</p>
@@ -46,9 +50,11 @@ export default function Home() {
 
 
 
+
             <div className="bg-[red]">
                 images will be here
             </div>
+
 
 
 
@@ -69,7 +75,7 @@ export default function Home() {
                     </div>
 
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2 mb-12">
-                        <img className="h-[300px] w-full object-cover object-top" src="/navratri.jpg" alt="dress" loading="lazy" />
+                        <img className="h-[300px] w-full object-cover object-top" src="/halloween.jpg" alt="dress" loading="lazy" />
                         <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
                             <p className="text-[#666] text-[0.9rem] mb-2"> <FaRegCalendarCheck className="inline mt-[-5px] mr-1" /> 31 October 2024 </p>
                             <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-4">Spooky Chic: Transforming Halloween Fashion with Dark Elegance</p>
@@ -78,7 +84,7 @@ export default function Home() {
                     </div>
 
                     <div className="w-full sm:w-[300px] lg:flex-1 px-2">
-                        <img className="h-[300px] w-full object-cover object-top" src="/halloween.jpg" alt="dress" loading="lazy" />
+                        <img className="h-[300px] w-full object-cover object-top" src="/navratri.jpg" alt="dress" loading="lazy" />
                         <div className="relative bg-[#fff] m-auto w-[80%] mt-[-25px] p-5 z-10">
                             <p className="text-[#666] text-[0.9rem] mb-2"> <FaRegCalendarCheck className="inline mt-[-5px] mr-1" /> 3 October 2024 </p>
                             <p className="font-[700] text-[1.2rem] leading-[1.5rem] mb-4">Navratri: A Festival of Faith, Dance, and Devotion</p>
